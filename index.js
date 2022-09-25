@@ -5,3 +5,5 @@ const {Token} = require("./config.json");
 require("./Handlers/Events")(client);
 
 client.login(Token);
+
+//UNLIMITED POWER
