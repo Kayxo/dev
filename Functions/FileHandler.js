@@ -1,5 +1,5 @@
-const { glob } = require {"glob"};
-const { promisify } = require {"util"};
+const { glob } = require ("glob");
+const { promisify } = require ("util");
 const proGlob = promisify(glob);
 
 async function loadfiles(dirName){
